@@ -12,6 +12,7 @@
 		5565BA481F1CA1CF003731B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5565BA461F1CA1CF003731B1 /* Main.storyboard */; };
 		5565BA4A1F1CA1CF003731B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5565BA491F1CA1CF003731B1 /* Assets.xcassets */; };
 		5565BA4D1F1CA1CF003731B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5565BA4B1F1CA1CF003731B1 /* LaunchScreen.storyboard */; };
+		5565BA571F1CA23D003731B1 /* XCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5565BA561F1CA23D003731B1 /* XCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5565BA491F1CA1CF003731B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5565BA4C1F1CA1CF003731B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5565BA4E1F1CA1CF003731B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5565BA561F1CA23D003731B1 /* XCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5565BA411F1CA1CF003731B1 /* 缓存 */ = {
 			isa = PBXGroup;
 			children = (
+				5565BA551F1CA1F6003731B1 /* XCache */,
 				5565BA421F1CA1CF003731B1 /* AppDelegate.swift */,
 				5565BA441F1CA1CF003731B1 /* ViewController.swift */,
 				5565BA461F1CA1CF003731B1 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				5565BA4E1F1CA1CF003731B1 /* Info.plist */,
 			);
 			path = "缓存";
+			sourceTree = "<group>";
+		};
+		5565BA551F1CA1F6003731B1 /* XCache */ = {
+			isa = PBXGroup;
+			children = (
+				5565BA561F1CA23D003731B1 /* XCache.swift */,
+			);
+			name = XCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5565BA451F1CA1CF003731B1 /* ViewController.swift in Sources */,
+				5565BA571F1CA23D003731B1 /* XCache.swift in Sources */,
 				5565BA431F1CA1CF003731B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

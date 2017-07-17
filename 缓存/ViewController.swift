@@ -9,6 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var Cachelable: UILabel!
+    @IBAction func readC(sender: AnyObject) {
+        self.Cachelable.text = XCache.returnCacheSize()+"MB"
+    }
+    @IBAction func cleanC(sender: AnyObject) {
+        XCache.cleanCache{
+            self.Cachelable.text = XCache.returnCacheSize()+"MB"
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
